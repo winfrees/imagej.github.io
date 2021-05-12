@@ -12,7 +12,7 @@ categories: [Plugins,Registration]
 {% capture source%}
 {% include github org='demisjohn' repo='Microscope-Measurement-Tools' %}
 {% endcapture %}
-{% include info-box software='Fiji' name='Microscope Measurement Tools' author=author maintainer='Demis D. John (<demis.john@gmail.com>)' filename=' [Download from GitHub/Releases](https://github.com/demisjohn/Microscope-Measurement-Tools/releases)' source=source released='Sept. 24<sup>th</sup>, 2015' latest-version='2.3' status='beta' website=' [Microscope Measurement Tools at GitHub](https://github.com/demisjohn/Microscope-Measurement-Tools)' %} Recall saved calibrations for your microscope's measurement scale and create measurement annotations.
+{% include info-box software='Fiji' name='Microscope Measurement Tools' author=author maintainer='Demis D. John (<demis.john@gmail.com>)' filename='[Download from GitHub/Releases](https://github.com/demisjohn/Microscope-Measurement-Tools/releases)' source=source released='Sept. 24<sup>th</sup>, 2015' latest-version='2.3' status='beta' website='[Microscope Measurement Tools at GitHub](https://github.com/demisjohn/Microscope-Measurement-Tools)' %} Recall saved calibrations for your microscope's measurement scale and create measurement annotations.
 
 ## Description
 
