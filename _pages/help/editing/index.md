@@ -15,12 +15,18 @@ Let's dive in to how to create a new page on the site.
 If you are looking to edit an existing page, skip to
 [adding and editing page content](#adding-and-editing-page-content) below.
 
-1.  Navigate to the [pages section](https://github.com/imagej/imagej.github.io/tree/main/_pages) of the repository.
-Click {% include button label="Add file" %} then  {% include button label="Create new file" %} from the drop-down:
+1.  Navigate to the
+    [pages section](https://github.com/imagej/imagej.github.io/tree/main/_pages)
+    of the repository.
+    Click {% include button label="Add file" %} then
+    {% include button label="Create new file" %} from the drop-down:
 
     {% include img align="center" name="create-page" src="/media/help/create-page-etw.png" %}
 
-2.  Add a name for your file. **Note: this is not the page title;** the page title will be applied in the next section, front matter. File names should be all lower case, use the file extension `.md`, avoid symbols and spaces, and separate words using dashes (`-`):
+2.  Add a name for your file. **Note: this is not the page title;** the page
+    title will be applied in the next section, front matter. File names should
+    be all lower case, use the file extension `.md`, avoid symbols and spaces,
+    and separate words using dashes (`-`):
 
     {% include img align="center" name="name-your-file" src="/media/help/name-your-file.png" classes="grey-border" %}
 
@@ -74,21 +80,134 @@ utilization instructions, [see below](/help/editing#available-includes).
 
 ### Available includes
 
+#### Linking
+
 | Include                           | Purpose                      |
 |:---------------------------------:|:-----------------------------:
-| [bc](menu-paths)                  | Insert menu breadcrumb       |
-| [citation](citations)             | Insert a citation            |
-| [conference](conferences)         | Insert conference info       |
-| [figure](images#figures)          | Insert a figure              |
-| [gallery](images#image-galleries) | Insert an image gallery      |
 | [github](linking#github)          | Link to a resource on GitHub |
-| [image](images#images)            | Insert an image              |
+| [javadoc](linking#javadoc)        | Link to a javadoc resource   |
+| [wikipedia](linking#wikipedia)    | Link to a Wikipedia page     |
+| [person](people)                  | Link to a person's user page |
+| [person-list](people#lists)       | Link to a list of user pages |
+
+big-link
+
+#### Symbols
+
+| Include                           | Purpose                      |
+|:---------------------------------:|:-----------------------------:
+| [bc](menu-paths)                  | Insert a menu breadcrumb     |
+| [button](buttons)                 | Insert a button              |
+| [key](keys)                       | Insert a keyboard shortcut   |
 | [logo](logos)                     | Insert logos                 |
 | [math](math)                      | Insert math                  |
-| [notice](notices)                 | Insert a notice              |
-| [person](people)                  | Insert person details        |
-| [sidebox](sideboxes)              | Insert a sidebox             |
 | [symbol](symbols)                 | Insert a symbol              |
+
+arrow
+yes
+no
+
+#### Media
+
+| [figure](images#figures)                     | Insert a figure              |
+| [gallery](images#image-galleries)            | Insert an image gallery      |
+| [img](images#images)                         | Insert an image              |
+| [youtube](videos#youtube)                    | Embed a YouTube video        |
+| [youtube-playlist](videos#youtube-playlists) | Embed a playlist of videos |
+
+#### Blocks
+
+| [notice](notices)                 | Insert a notice              |
 | [table](tables)                   | Insert a table               |
-| [wikipedia](linking#wikipedia)    | Link to a Wikipedia page     |
-| [youtube-video](videos#youtube)   | Insert a video               |
+| [sidebox](sideboxes)              | Insert a sidebox             |
+
+ambox
+info-box
+box
+biginfo-box
+sidebox-left
+sidebox-right
+tech-box
+tip
+minibox
+warning-box
+
+#### Other
+
+| [citation](citations)             | Insert a citation            |
+| [conference](conferences)         | Insert conference info       |
+
+#### Internal
+
+listnews
+hamburger-menu
+main-menu
+menu-divider
+menu-item
+menu-section
+menu-section-end
+
+avoidprogramfiles
+base-scripts
+bc
+book
+cip
+citation
+cite
+clear
+communication
+downloadfiji
+example
+extendingtrackmatetutorials
+fiji
+file
+fullpagename
+fullurl
+github
+github-embed
+guidetask
+ides
+imagej1
+imglib1-deprecation-info-box
+importing-classes
+license-links
+linux
+list-of-update-sites
+logo
+macos
+matlab
+maven
+onebox-info
+outdated
+page-info
+path
+person
+person-list
+plugin-index-icon
+plugin-index-section
+pluginremoved
+project
+publication
+quiz
+recommendedcontact
+scholar
+search-results
+sntdeprecation
+sntnavbar
+statbox
+statbox-row
+statbox-team-members
+stub
+tech
+template
+testimonial
+thumbnail
+thumbnail-link
+timeline
+tooltip
+top-bar
+unmaintained
+unreleased
+updatesiteswarning-box
+windows
+wip
